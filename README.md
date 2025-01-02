@@ -1,20 +1,21 @@
 # PDF Certificate Generator
 
-This Python tool generates personalized PDF certificates by overlaying text onto a pre-designed PDF template. Names are sourced from a CSV file, and text is positioned using a custom font with adjustable coordinates.
+This Python tool automates the creation of personalized PDF certificates using a pre-designed template. It overlays names sourced from a CSV file onto the template, with customizable text positioning and font support.
 
 ## Features
 
-- **Custom Font Support:** Use your own `.ttf` font file.
-- **Automated PDF Creation:** Generates individual PDF certificates for each name.
-- **Flexible Text Positioning:** Adjust the text position on the template for precise placement.
+- **Custom Font Support:** Use your own `.ttf` font for professional styling.
+- **Automated PDF Creation:** Generate individual certificates for each name in bulk.
+- **Precise Text Positioning:** Easily adjust the placement of text on the template.
+- **Batch Processing:** Efficiently handles multiple names from a CSV file.
 
 ## Prerequisites
 
-- Python 3.x
-- Required Python packages:
+Ensure you have Python 3.x installed along with the following Python packages:
 
-  ```bash
-  pip install PyPDF2 reportlab
+```bash
+pip install PyPDF2 reportlab
+
 ## Project Structure
 
 Copy code
